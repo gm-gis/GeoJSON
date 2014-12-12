@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.858359,
+          40.796351
+        ]
+      },
+      "properties": {
+        "name": "Abba Java",
+        "address": "106 Locust Lane",
+        "website": "wesleypsu.org",
+        "free coffee": "yes",
+        "free food": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CommonPlace",
+        "address": "115 Fraser Street State College, PA 16801",
+        "website": "commonplacesc.com",
+        "free coffee": "yes",
+        "free food": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.86236584186554,
+          40.79341681286261
+        ]
+      }
+    }
+  ]
+}
