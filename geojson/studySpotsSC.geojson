@@ -12,10 +12,11 @@
       },
       "properties": {
         "name": "Abba Java",
-        "address": "106 Locust Lane",
+        "address": "106 Locust Lane State College, PA 16801",
         "website": "wesleypsu.org",
         "free coffee": "yes",
-        "free food": "yes"
+        "free food": "yes",
+        "free wifi": "yes"
       }
     },
     {
@@ -25,7 +26,8 @@
         "address": "115 Fraser Street State College, PA 16801",
         "website": "commonplacesc.com",
         "free coffee": "yes",
-        "free food": "yes"
+        "free food": "yes",
+        "free wifi": "yes"
       },
       "geometry": {
         "type": "Point",
