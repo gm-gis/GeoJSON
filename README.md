@@ -1,4 +1,4 @@
-Learn GeoJSON (and build cool collaborative datasets!)
+GeoJSON Datasets
 =============
 
 Learn GeoJSON
