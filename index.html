@@ -115,7 +115,7 @@
 
 
 		function onEachFeature(feature, layer) {
-			var popupContent = "<strong>Work Experience</strong><br>";
+			var popupContent = "<strong>feature.name</strong><br><p>feature.role<br>feature.time";
 
 			if (feature.properties && feature.properties.popupContent) {
 				popupContent += feature.properties.popupContent;
@@ -132,10 +132,17 @@
 
 			onEachFeature: onEachFeature,
 
+			if (feature.type =="play") {
+			    markefillColor="#1f78b4";
+			}
+			 else {
+			    markefillColor = "#39966";
+			}
+
 			pointToLayer: function (feature, latlng) {
 				return L.circleMarker(latlng, {
 					radius: 8,
-					fillColor: "#ff7800",
+					fillColor: markefillColor,
 					color: "#000",
 					weight: 1,
 					opacity: 1,
