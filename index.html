@@ -8,11 +8,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="http://leafletjs.com/dist/leaflet.css" />
-<style>
-.leaflet-popup-content-wrapper {
-	text-align:center;
-}
-</style>
 </head>
 <body>
 	<div id="map" style="width: 600px; height: 400px"></div>
@@ -120,7 +115,7 @@
 
 
 		function onEachFeature(feature, layer) {
-			var popupContent = "<p><strong>" +feature.properties.name + "</strong><br>" + feature.properties.role + "<br>" + feature.properties.time + "</p>";
+			var popupContent = "<p style='text-align:center;'><strong>" +feature.properties.name + "</strong><br>" + feature.properties.role + "<br>" + feature.properties.time + "</p>";
 
 			if (feature.properties && feature.properties.popupContent) {
 				popupContent += feature.properties.popupContent;
