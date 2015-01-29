@@ -115,7 +115,7 @@
 
 
 		function onEachFeature(feature, layer) {
-			var popupContent = "<strong>feature.name</strong><br><p>feature.role<br>feature.time</p>";
+			var popupContent = "<strong>" +feature.properties.name + "</strong><br><p>" + feature.properties.role + "<br>" + feature.properties.time + "</p>";
 
 			if (feature.properties && feature.properties.popupContent) {
 				popupContent += feature.properties.popupContent;
@@ -135,9 +135,16 @@
 		
 
 			pointToLayer: function (feature, latlng) {
+				
+				if (feature.properties.type == "play") {
+				    mfill = "#1f78b4";
+				} else {
+				    mfill = "#339966";
+				}
+
 				return L.circleMarker(latlng, {
 					radius: 8,
-					fillColor: "#339966",
+					fillColor: mfill,
 					color: "#000",
 					weight: 1,
 					opacity: 1,
