@@ -121,15 +121,17 @@
 				popupContent += feature.properties.popupContent;
 			}
 
-			layer.bindPopup(popupContent);
-		}
-
 			if (feature.type == "play") {
 			    markerfillColor="#1f78b4";
 			}
 			 else {
 			    markerfillColor = "#39966";
 			}
+
+			layer.bindPopup(popupContent);
+		}
+
+
 
 
 		L.geoJson([places], {
