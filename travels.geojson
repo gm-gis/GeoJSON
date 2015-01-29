@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ESRI",
+        "role": "Technical Marketing Intern",
+        "time": "Summer 2014",
+        "type": "work"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.19568967819214,
+          34.05641053454641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Penn State University",
+        "role": "Research Assistant",
+        "time": "December 2013-Present",
+        "type": "work"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.86687731742859,
+          40.79325436303818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "State College Borough",
+        "role": "GIS Intern",
+        "time": "Fall 2013",
+        "type": "work"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.85886287689209,
+          40.792815746526834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Summer's Best Two Weeks",
+        "role": "Camp Counselor",
+        "time": "Summer 2012, 2013",
+        "type": "work"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.09675598144531,
+          40.155392485732726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Canyon",
+        "role": "5-Day Backpacking Tip",
+        "time": "January 2015",
+        "type": "play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.09625244140625,
+          36.04743345598549
+        ]
+      }
+    }
+  ]
+}
