@@ -121,14 +121,19 @@
 				popupContent += feature.properties.popupContent;
 			}
 
+		
+
+			layer.bindPopup(popupContent);
+		}
+		
+		function onEachFeature(feature) { 
+			
 			if (feature.properties.type == "play") {
 			    markerfillColor="#1f78b4";
 			}
 			 else {
 			    markerfillColor = "#39966";
 			}
-
-			layer.bindPopup(popupContent);
 		}
 
 
