@@ -1,4 +1,4 @@
-{
+var places = {
   "type": "FeatureCollection",
   "features": [
     {
