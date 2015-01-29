@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leaflet GeoJSON Example</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="http://leafletjs.com/dist/leaflet.css" />
+</head>
+<body>
+	<div id="map" style="width: 600px; height: 400px"></div>
+
+	<script src="http://leafletjs.com/dist/leaflet.js" type="text/javascript"></script>
+	<!--<script src="https://github.com/gm-gis/GeoJSON/blob/master/geoWork.js"></script>-->
+
+	<script>
+		var map = L.map('map').setView([37.85751, -95.625], 4);
+
+		var places = {
+		  "type": "FeatureCollection",
+		  "features": [
+		    {
+		      "type": "Feature",
+		      "properties": {
+		         "popupContent": "ESRI - Technical Marketing Intern"
+		      },
+		      "geometry": {
+		        "type": "Point",
+		        "coordinates": [
+		          -117.19568967819214,
+		          34.05641053454641
+		        ]
+		      }
+		    },
+		    {
+		      "type": "Feature",
+		      "properties": {
+		                "popupContent": "PSU - Research Assistant"
+		      },
+		      "geometry": {
+		        "type": "Point",
+		        "coordinates": [
+		          -77.86687731742859,
+		          40.79325436303818
+		        ]
+		      }
+		    }
+		  ]
+		}
+
+		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+			maxZoom: 18,
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+			id: 'examples.map-20v6611k'
+		}).addTo(map);
+
+
+		function onEachFeature(feature, layer) {
+			var popupContent = "<strong>Work Experience</strong><br>";
+
+			if (feature.properties && feature.properties.popupContent) {
+				popupContent += feature.properties.popupContent;
+			}
+
+			layer.bindPopup(popupContent);
+		}
+
+		L.geoJson([places], {
+
+			style: function (feature) {
+				return feature.properties && feature.properties.style;
+			},
+
+			onEachFeature: onEachFeature,
+
+			pointToLayer: function (feature, latlng) {
+				return L.circleMarker(latlng, {
+					radius: 8,
+					fillColor: "#ff7800",
+					color: "#000",
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8
+				});
+			}
+		}).addTo(map);
+
+	</script>
+</body>
+</html>
