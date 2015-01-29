@@ -124,6 +124,14 @@
 			layer.bindPopup(popupContent);
 		}
 
+			if (feature.type == "play") {
+			    markerfillColor="#1f78b4";
+			}
+			 else {
+			    markerfillColor = "#39966";
+			}
+
+
 		L.geoJson([places], {
 
 			style: function (feature) {
@@ -132,13 +140,7 @@
 
 			onEachFeature: onEachFeature,
 
-			if (feature.type =="play") {
-			    markefillColor="#1f78b4";
-			}
-			 else {
-			    markefillColor = "#39966";
-			}
-
+		
 			pointToLayer: function (feature, latlng) {
 				return L.circleMarker(latlng, {
 					radius: 8,
