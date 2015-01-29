@@ -4,8 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "ESRI",
-        "role": "Technical Marketing Intern"
+         "popupContent": "ESRI - Technical Marketing Intern"
       },
       "geometry": {
         "type": "Point",
@@ -18,8 +17,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Penn State University",
-        "role": "Research Assistant"
+                "popupContent": "PSU - Research Assistant"
       },
       "geometry": {
         "type": "Point",
