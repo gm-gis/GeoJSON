@@ -224,6 +224,22 @@
           34.04014265821752
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Birmingham Alabama",
+        "role": "Serving adults with disabilities at United Cerbral Palsy",
+        "time": "May 2014",
+        "type": "play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.87465786933899,
+          33.433205197251446
+        ]
+      }
     }
   ]
 }
