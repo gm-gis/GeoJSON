@@ -160,6 +160,22 @@
           37.91603433975963
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wasatch Mountain",
+        "role": "Cross-Country Road Trip",
+        "time": "August 2014",
+        "type": "play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.38900756835938,
+          40.46889024168825
+        ]
+      }
     }
   ]
 }
