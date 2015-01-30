@@ -166,7 +166,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Wasatch Mountain",
+        "name": "Wasatch Mountains",
         "role": "Cross-Country Road Trip",
         "time": "August 2014",
         "type": "play"
@@ -183,7 +183,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rocky Mountain National Park",
-        "role": "Hiking, Campling",
+        "role": "Hiking, Camping",
         "time": "August 2014",
         "type": "play"
       },
@@ -199,7 +199,7 @@
       "type": "Feature",
       "properties": {
         "name": "Oklahoma City",
-        "role": "OKC Thunder Basletball Game",
+        "role": "OKC Thunder Basketball Game",
         "time": "January 2015",
         "type": "play"
       },
@@ -230,7 +230,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Birmingham Alabama",
+        "name": "Birmingham, Alabama",
         "role": "Serving adults with disabilities at United Cerbral Palsy",
         "time": "May 2014",
         "type": "play"
@@ -246,7 +246,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Stowe Vermont",
+        "name": "Stowe, Vermont",
         "role": "XC Skiing, Snowshoeing",
         "time": "December 2014",
         "type": "play"
