@@ -80,6 +80,22 @@
           36.04743345598549
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canyonlands National Park",
+        "role": "Hiking, Exploring",
+        "time": "May 2014, January 2015",
+        "type": "play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.86396789550781,
+          38.30825817353996
+        ]
+      }
     }
   ]
 }
