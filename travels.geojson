@@ -176,6 +176,22 @@
           40.46889024168825
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rocky Mountain National Park",
+        "role": "Hiking, Campling",
+        "time": "August 2014",
+        "type": "play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.65483093261719,
+          40.30963984228559
+        ]
+      }
     }
   ]
 }
