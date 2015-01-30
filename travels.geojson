@@ -7,7 +7,8 @@
         "name": "ESRI",
         "role": "Technical Marketing Intern",
         "time": "Summer 2014",
-        "type": "work"
+        "type": "work",
+        "img": "https://officepictures.files.wordpress.com/2012/02/front-view.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -71,7 +72,8 @@
         "name": "Grand Canyon",
         "role": "5-Day Backpacking Tip",
         "time": "January 2015",
-        "type": "play"
+        "type": "play",
+        "img": "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10888687_4992359182326_348458772471323877_n.jpg?oh=169385435053619f91230670fceebd59&oe=556AA9CB&__gda__=1431700406_756ab8297e4507e80a0b97c56c74db54"
       },
       "geometry": {
         "type": "Point",
