@@ -96,6 +96,22 @@
           38.30825817353996
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arches National Park",
+        "role": "Exploring",
+        "time": "May 2014, January 2015",
+        "type": "play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5347213745117,
+          38.68510776818861
+        ]
+      }
     }
   ]
 }
