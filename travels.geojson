@@ -144,6 +144,22 @@
           37.72782336496339
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pacific Coast Highway",
+        "role": "2-Day Road Trip",
+        "time": "July 2015",
+        "type": "play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.26448822021483,
+          37.91603433975963
+        ]
+      }
     }
   ]
 }
