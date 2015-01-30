@@ -208,6 +208,22 @@
           35.46383333003051
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joshua Tree National Park",
+        "role": "Hiking, Avoiding Rattlesnakes",
+        "time": "May 2014",
+        "type": "play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.18574142456055,
+          34.04014265821752
+        ]
+      }
     }
   ]
 }
