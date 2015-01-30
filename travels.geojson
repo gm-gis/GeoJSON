@@ -128,6 +128,22 @@
           36.33946565299958
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yosemite",
+        "role": "Hiking, Exploring",
+        "time": "August 2014",
+        "type": "play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.57107543945311,
+          37.72782336496339
+        ]
+      }
     }
   ]
 }
