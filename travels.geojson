@@ -240,6 +240,22 @@
           33.433205197251446
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stowe Vermont",
+        "role": "XC Skiing, Snowshoeing",
+        "time": "May 2014",
+        "type": "play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.74236679077148,
+          44.46916310149303
+        ]
+      }
     }
   ]
 }
