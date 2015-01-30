@@ -246,7 +246,7 @@
       "properties": {
         "name": "Stowe Vermont",
         "role": "XC Skiing, Snowshoeing",
-        "time": "May 2014",
+        "time": "December 2014",
         "type": "play"
       },
       "geometry": {
@@ -254,6 +254,22 @@
         "coordinates": [
           -72.74236679077148,
           44.46916310149303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acadia National Park",
+        "role": "Hiking, Kayaking",
+        "time": "July 2010",
+        "type": "play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.21617126464844,
+          44.356751085978146
         ]
       }
     }
