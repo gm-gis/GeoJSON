@@ -150,7 +150,7 @@
       "properties": {
         "name": "Pacific Coast Highway",
         "role": "2-Day Road Trip",
-        "time": "July 2015",
+        "time": "July 2014",
         "type": "play"
       },
       "geometry": {
@@ -190,6 +190,22 @@
         "coordinates": [
           -105.65483093261719,
           40.30963984228559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oklahoma City",
+        "role": "OKC Thunder Basletball Game",
+        "time": "January 2015",
+        "type": "play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51512050628662,
+          35.46383333003051
         ]
       }
     }
