@@ -272,6 +272,22 @@
           44.356751085978146
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Republica Dominicana",
+        "role": "Service Trip",
+        "time": "March 2011",
+        "type": "play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.64809799194336,
+          19.42661072109788
+        ]
+      }
     }
   ]
 }
