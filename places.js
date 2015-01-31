@@ -144,30 +144,13 @@ var points= {
         "role": "Hiking, Exploring",
         "time": "August 2014",
         "type": "Travel",
-        "img": "<img src='https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10616428_4504384303259_3230157800133639207_n.jpg?oh=36e21b316134b0230638469aa5e72855&oe=555B6975&__gda__=1431541751_335cbf82734cc8339b6a43a3ca5f21f1/>"
+        "img": "<img src='https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10616428_4504384303259_3230157800133639207_n.jpg?oh=36e21b316134b0230638469aa5e72855&oe=555B6975&__gda__=1431541751_335cbf82734cc8339b6a43a3ca5f21f1'/>"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -119.57107543945311,
           37.72782336496339
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pacific Coast Highway",
-        "role": "2-Day Road Trip",
-        "time": "July 2014",
-        "type": "Travel",
-        "img": "<img src='https://scontent-b-lga.xx.fbcdn.net/hphotos-xap1/t31.0-8/q81/p180x540/10494475_4368533907084_4178925375455562143_o.jpg'/>"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.26448822021483,
-          37.91603433975963
         ]
       }
     },
