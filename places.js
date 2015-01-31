@@ -226,7 +226,7 @@ var points= {
       "type": "Feature",
       "properties": {
         "name": "Birmingham, Alabama",
-        "role": "Serving adults with disabilities at United Cerebral Palsy",
+        "role": "Serving adults with disabilities",
         "time": "May 2014",
         "type": "Service",
         "img": "<img src='http://www.physician-innovations.com/UCP_Logo.gif'/>"
