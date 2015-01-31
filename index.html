@@ -8,18 +8,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="http://leafletjs.com/dist/leaflet.css" />
+	<style type="text/css">
+
+	img{
+		width: 100%;
+	}
+
+	.circle{
+		width:50px;
+		height:50px;
+		border-radius:50px;
+		font-size:10px;
+		color:#525252;
+		line-height:50px;
+		text-align:center;
+		background:#000;
+		opacity: .8;
+		border: 1.5px solid #a6cee3;
+		margin: 2px;
+		box-shadow: 1px 1px #fff;
+		text-shadow:1px 1px 0px #fff;
+
+	}
+
+
+	</style>
 </head>
 <body>
 	<div id="map" style="width: 1000px; height: 500px"></div>
 
 	<script src="http://leafletjs.com/dist/leaflet.js" type="text/javascript"></script>
-	<script src="places.js" type="text/javascript"></script>
-
 	<!--<script src="https://github.com/gm-gis/GeoJSON/blob/master/geoWork.js"></script>-->
 
 	<script>
-		var map = L.map('map').setView([35.169127, -99.114532], 4);
-
+		var map = L.map('map').setView([35.169127, -99.114532], 4);						
 
 		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 			maxZoom: 18,
@@ -33,8 +55,8 @@
 		function onEachFeature(feature, layer) {
 			var popupContent = "<p style='text-align:center;'><strong>" +feature.properties.name + "</strong><br>" + feature.properties.role + "<br>" + feature.properties.time + "</p>";
 
-			if (feature.properties && feature.properties.popupContent) {
-				popupContent += feature.properties.popupContent;
+			if (feature.properties && feature.properties.img) {
+				popupContent+=feature.properties.img
 			}
 
 			layer.bindPopup(popupContent);
@@ -52,10 +74,13 @@
 
 			pointToLayer: function (feature, latlng) {
 				
-				if (feature.properties.type == "play") {
-				    mfill = "#1f78b4";
-				} else {
-				    mfill = "#339966";
+				if (feature.properties.type == "Service") {
+				    mfill = "#e0f3db";
+				} else if (feature.properties.type =="Travel"){
+					mfill = "#a8ddb5"
+				}
+				else {
+				    mfill = "#43a2ca";
 				}
 
 				return L.circleMarker(latlng, {
@@ -68,6 +93,41 @@
 				});
 			}
 		}).addTo(map);
+
+
+		var legend = L.control({position: 'bottomleft'});
+
+		legend.onAdd = function (map) {
+
+			  var icons = {
+			      circle1: {
+			        label: 'Service',
+			        color: "#e0f3db"
+			      },
+			      circle2: {
+			        label: 'Travel',
+			        color: "#a8ddb5"
+			      },
+			      circle3: {
+			        label: 'Work',
+			        color: "#43a2ca"
+			      }
+			  };
+
+			  var div = L.DomUtil.create('div', 'info legend');
+			  for (var key in icons) {
+			    var type = icons[key];
+			    var desc = type.label;
+			    var color = type.color;
+			    div.innerHTML += "<div class='circle' style=background:" + color + ";>" +"<strong>" + (desc) + "</strong></div>";
+			  }
+
+		   		return div;
+
+		}; 
+
+		legend.addTo(map);
+			
 
 	</script>
 </body>
