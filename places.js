@@ -127,7 +127,7 @@ var points= {
         "role": "2-Day Road Trip",
         "time": "July 2015",
         "type": "Travel",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
+        "img": "<img src='https://scontent-b-lga.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10464136_4368533907084_4178925375455562143_n.jpg?oh=6b97426051608c160512382f63000f49&oe=55680A6D'/>"
       },
       "geometry": {
         "type": "Point",
@@ -144,7 +144,7 @@ var points= {
         "role": "Hiking, Exploring",
         "time": "August 2014",
         "type": "Travel",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
+        "img": "<img src='https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10616428_4504384303259_3230157800133639207_n.jpg?oh=36e21b316134b0230638469aa5e72855&oe=555B6975&__gda__=1431541751_335cbf82734cc8339b6a43a3ca5f21f1/>"
       },
       "geometry": {
         "type": "Point",
@@ -161,7 +161,7 @@ var points= {
         "role": "2-Day Road Trip",
         "time": "July 2014",
         "type": "Travel",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
+        "img": "<img src='https://scontent-b-lga.xx.fbcdn.net/hphotos-xap1/t31.0-8/q81/p180x540/10494475_4368533907084_4178925375455562143_o.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -178,7 +178,7 @@ var points= {
         "role": "Cross-Country Road Trip",
         "time": "August 2014",
         "type": "Travel",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
+        "img": "<img src='https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10612746_4504438984626_3230283233246349264_n.jpg?oh=43b5972d58667119d35f1090de88e21b&oe=5553EC13&__gda__=1431938066_d1e1dfc1cca3e42ae16ee6dbdeb256e8'/>"
       },
       "geometry": {
         "type": "Point",
@@ -195,7 +195,7 @@ var points= {
         "role": "Hiking, Camping",
         "time": "August 2014",
         "type": "Travel",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
+        "img": "<img src='https://scontent-a-lga.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/10559863_4504467945350_7608540977612725056_n.jpg?oh=ad514a1d8f63a071c72d4c57ecd66c2b&oe=556646AB'/>"
       },
       "geometry": {
         "type": "Point",
@@ -209,10 +209,10 @@ var points= {
       "type": "Feature",
       "properties": {
         "name": "Oklahoma City",
-        "role": "OKC Thunder Basketball Game",
+        "role": "OKC Thunder Basketball Game (Road Trip)",
         "time": "January 2015",
         "type": "Travel",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
+        "img": "<img src='https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10924775_4992355942245_6783671512845555628_n.jpg?oh=876fade88d2095f140e1db96e5e26118&oe=5561E8CB&__gda__=1431315017_70d219b885d5ff9cd4f1ff4346c34c95'/>"
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +229,7 @@ var points= {
         "role": "Hiking, Avoiding Rattlesnakes",
         "time": "May 2014",
         "type": "Travel",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
+        "img": "<img src='https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10245404_4210528637051_4261430365212744654_n.jpg?oh=c897b151bbe0beaff6c5050c271c77c6&oe=556B16A4&__gda__=1433272392_6607be27e2cd6c6807ef52048ddc609b'/>"
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +246,7 @@ var points= {
         "role": "Serving adults with disabilities at United Cerebral Palsy",
         "time": "May 2014",
         "type": "Service",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpghttp://specialedpost.com/wp-content/uploads/2012/09/ucp213.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -263,7 +263,7 @@ var points= {
         "role": "XC Skiing, Snowshoeing",
         "time": "December 2014",
         "type": "Travel",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
+        "img": "<img src='https://scontent-a-lga.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/10881500_10205898373366810_2769806037817003753_n.jpg?oh=a6016bc6c66c2647cee33eb220cb54a6&oe=55608A51'/>"
       },
       "geometry": {
         "type": "Point",
@@ -280,7 +280,7 @@ var points= {
         "role": "Hiking, Kayaking",
         "time": "July 2010",
         "type": "Travel",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
+        "img": "<img src='https://scontent-a-lga.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/39650_1535966527438_3193345_n.jpg?oh=133cb038d3b57fcf5d9749237c3dc273&oe=555B805D'/>"
       },
       "geometry": {
         "type": "Point",
