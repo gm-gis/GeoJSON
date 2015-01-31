@@ -24,7 +24,8 @@ var points= {
         "name": "Penn State University",
         "role": "Research Assistant",
         "time": "December 2013-Present",
-        "type": "work"
+        "type": "work",
+        "img": "<img src='http://onwardstate.com/wp-content/uploads/2012/11/580x385x580171_10151916746700663_1092465643_n.jpeg.pagespeed.ic.PVobPyxaRG.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -40,7 +41,8 @@ var points= {
         "name": "State College Borough",
         "role": "GIS Intern",
         "time": "Fall 2013",
-        "type": "work"
+        "type": "work",
+        "img": "<img src='https://www.downtownstatecollege.com/images_home/1.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -56,7 +58,8 @@ var points= {
         "name": "Summer's Best Two Weeks",
         "role": "Camp Counselor",
         "time": "Summer 2012, 2013",
-        "type": "work"
+        "type": "work",
+        "img": "<img src='https://scontent-a-lga.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/1609964_848105808573761_2541637874081693742_n.jpg?oh=754e1bf39a64a5e4fd365f0ad7e28457&oe=55530364'/>"
       },
       "geometry": {
         "type": "Point",
@@ -89,7 +92,8 @@ var points= {
         "name": "Canyonlands National Park",
         "role": "Hiking, Exploring",
         "time": "May 2014, January 2015",
-        "type": "Travel"
+        "type": "Travel",
+        "img": "<img src='https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10371666_4210516516748_6012905727326739270_n.jpg?oh=4234af2a895b14d3ad7ce521f9b23c45&oe=555DD52F&__gda__=1431275693_764426896ea455ce53e5a2701d107ba9'/>"
       },
       "geometry": {
         "type": "Point",
@@ -105,7 +109,8 @@ var points= {
         "name": "Arches National Park",
         "role": "Exploring",
         "time": "May 2014, January 2015",
-        "type": "Travel"
+        "type": "Travel",
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +126,8 @@ var points= {
         "name": "Pacific Coast Highway",
         "role": "2-Day Road Trip",
         "time": "July 2015",
-        "type": "Travel"
+        "type": "Travel",
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -137,7 +143,8 @@ var points= {
         "name": "Yosemite",
         "role": "Hiking, Exploring",
         "time": "August 2014",
-        "type": "Travel"
+        "type": "Travel",
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -153,7 +160,8 @@ var points= {
         "name": "Pacific Coast Highway",
         "role": "2-Day Road Trip",
         "time": "July 2014",
-        "type": "Travel"
+        "type": "Travel",
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -169,7 +177,8 @@ var points= {
         "name": "Wasatch Mountains",
         "role": "Cross-Country Road Trip",
         "time": "August 2014",
-        "type": "Travel"
+        "type": "Travel",
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -185,7 +194,8 @@ var points= {
         "name": "Rocky Mountain National Park",
         "role": "Hiking, Camping",
         "time": "August 2014",
-        "type": "Travel"
+        "type": "Travel",
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -201,7 +211,8 @@ var points= {
         "name": "Oklahoma City",
         "role": "OKC Thunder Basketball Game",
         "time": "January 2015",
-        "type": "Travel"
+        "type": "Travel",
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -217,7 +228,8 @@ var points= {
         "name": "Joshua Tree National Park",
         "role": "Hiking, Avoiding Rattlesnakes",
         "time": "May 2014",
-        "type": "Travel"
+        "type": "Travel",
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -233,7 +245,8 @@ var points= {
         "name": "Birmingham, Alabama",
         "role": "Serving adults with disabilities at United Cerebral Palsy",
         "time": "May 2014",
-        "type": "Service"
+        "type": "Service",
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -249,7 +262,8 @@ var points= {
         "name": "Stowe, Vermont",
         "role": "XC Skiing, Snowshoeing",
         "time": "December 2014",
-        "type": "Travel"
+        "type": "Travel",
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -265,7 +279,8 @@ var points= {
         "name": "Acadia National Park",
         "role": "Hiking, Kayaking",
         "time": "July 2010",
-        "type": "Travel"
+        "type": "Travel",
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -281,7 +296,8 @@ var points= {
         "name": "La Republica Dominicana",
         "role": "Service Trip",
         "time": "March 2011",
-        "type": "Service"
+        "type": "Service",
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
       },
       "geometry": {
         "type": "Point",
@@ -297,7 +313,8 @@ var points= {
         "name": "Kensington, Philadelphia",
         "role": "Inner-City Missions",
         "time": "Various, 2009-2011",
-        "type": "Service"
+        "type": "Service",
+        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
       },
       "geometry": {
         "type": "Point",
