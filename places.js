@@ -72,7 +72,7 @@ var points= {
         "name": "Grand Canyon",
         "role": "5-Day Backpacking Tip",
         "time": "January 2015",
-        "type": "play",
+        "type": "Travel",
         "img": "<img src='https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10888687_4992359182326_348458772471323877_n.jpg?oh=169385435053619f91230670fceebd59&oe=556AA9CB&__gda__=1431700406_756ab8297e4507e80a0b97c56c74db54'/>"
       },
       "geometry": {
@@ -89,7 +89,7 @@ var points= {
         "name": "Canyonlands National Park",
         "role": "Hiking, Exploring",
         "time": "May 2014, January 2015",
-        "type": "play"
+        "type": "Travel"
       },
       "geometry": {
         "type": "Point",
@@ -105,7 +105,7 @@ var points= {
         "name": "Arches National Park",
         "role": "Exploring",
         "time": "May 2014, January 2015",
-        "type": "play"
+        "type": "Travel"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +121,7 @@ var points= {
         "name": "Pacific Coast Highway",
         "role": "2-Day Road Trip",
         "time": "July 2015",
-        "type": "play"
+        "type": "Travel"
       },
       "geometry": {
         "type": "Point",
@@ -137,7 +137,7 @@ var points= {
         "name": "Yosemite",
         "role": "Hiking, Exploring",
         "time": "August 2014",
-        "type": "play"
+        "type": "Travel"
       },
       "geometry": {
         "type": "Point",
@@ -153,7 +153,7 @@ var points= {
         "name": "Pacific Coast Highway",
         "role": "2-Day Road Trip",
         "time": "July 2014",
-        "type": "play"
+        "type": "Travel"
       },
       "geometry": {
         "type": "Point",
@@ -169,7 +169,7 @@ var points= {
         "name": "Wasatch Mountains",
         "role": "Cross-Country Road Trip",
         "time": "August 2014",
-        "type": "play"
+        "type": "Travel"
       },
       "geometry": {
         "type": "Point",
@@ -185,7 +185,7 @@ var points= {
         "name": "Rocky Mountain National Park",
         "role": "Hiking, Camping",
         "time": "August 2014",
-        "type": "play"
+        "type": "Travel"
       },
       "geometry": {
         "type": "Point",
@@ -201,7 +201,7 @@ var points= {
         "name": "Oklahoma City",
         "role": "OKC Thunder Basketball Game",
         "time": "January 2015",
-        "type": "play"
+        "type": "Travel"
       },
       "geometry": {
         "type": "Point",
@@ -217,7 +217,7 @@ var points= {
         "name": "Joshua Tree National Park",
         "role": "Hiking, Avoiding Rattlesnakes",
         "time": "May 2014",
-        "type": "play"
+        "type": "Travel"
       },
       "geometry": {
         "type": "Point",
@@ -233,7 +233,7 @@ var points= {
         "name": "Birmingham, Alabama",
         "role": "Serving adults with disabilities at United Cerebral Palsy",
         "time": "May 2014",
-        "type": "service"
+        "type": "Service"
       },
       "geometry": {
         "type": "Point",
@@ -249,7 +249,7 @@ var points= {
         "name": "Stowe, Vermont",
         "role": "XC Skiing, Snowshoeing",
         "time": "December 2014",
-        "type": "play"
+        "type": "Travel"
       },
       "geometry": {
         "type": "Point",
@@ -265,7 +265,7 @@ var points= {
         "name": "Acadia National Park",
         "role": "Hiking, Kayaking",
         "time": "July 2010",
-        "type": "play"
+        "type": "Travel"
       },
       "geometry": {
         "type": "Point",
@@ -281,7 +281,7 @@ var points= {
         "name": "La Republica Dominicana",
         "role": "Service Trip",
         "time": "March 2011",
-        "type": "service"
+        "type": "Service"
       },
       "geometry": {
         "type": "Point",
@@ -297,7 +297,7 @@ var points= {
         "name": "Kensington, Philadelphia",
         "role": "Inner-City Missions",
         "time": "Various, 2009-2011",
-        "type": "service"
+        "type": "Service"
       },
       "geometry": {
         "type": "Point",
