@@ -246,7 +246,7 @@ var points= {
         "role": "Serving adults with disabilities at United Cerebral Palsy",
         "time": "May 2014",
         "type": "Service",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpghttp://specialedpost.com/wp-content/uploads/2012/09/ucp213.jpg'/>"
+        "img": "<img src='http://www.physician-innovations.com/UCP_Logo.gif'/>"
       },
       "geometry": {
         "type": "Point",
@@ -296,8 +296,7 @@ var points= {
         "name": "La Republica Dominicana",
         "role": "Service Trip",
         "time": "March 2011",
-        "type": "Service",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
+        "type": "Service"
       },
       "geometry": {
         "type": "Point",
@@ -313,8 +312,7 @@ var points= {
         "name": "Kensington, Philadelphia",
         "role": "Inner-City Missions",
         "time": "Various, 2009-2011",
-        "type": "Service",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
+        "type": "Service"
       },
       "geometry": {
         "type": "Point",
