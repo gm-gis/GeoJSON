@@ -110,7 +110,7 @@ var points= {
         "role": "Exploring",
         "time": "May 2014, January 2015",
         "type": "Travel",
-        "img": "<img src='https://officepictures.files.wordpress.com/2012/02/front-view.jpg'/>"
+        "img": "<img src='https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/10404419_4992375782741_4142529354447285014_n.jpg?oh=6126f9319555b9655a190229d988fd4d&oe=55645899&__gda__=1431458660_493a7abeefe525ec5f25fda603b3cbfa'/>"
       },
       "geometry": {
         "type": "Point",
