@@ -76,18 +76,18 @@
 			pointToLayer: function (feature, latlng) {
 				
 				if (feature.properties.type == "Service") {
-				    mfill = "#e0f3db";
+				    mfill = "#a6cee3";
 				} else if (feature.properties.type =="Travel"){
-					mfill = "#a8ddb5"
+					mfill = "#1f78b4"
 				}
 				else {
-				    mfill = "#43a2ca";
+				    mfill = "#b2df8a";
 				}
 
 				return L.circleMarker(latlng, {
 					radius: 8,
 					fillColor: mfill,
-					color: "#a6cee3",
+					color: "#525252",
 					weight: 1,
 					opacity: 1,
 					fillOpacity: 0.9
@@ -103,15 +103,15 @@
 			  var icons = {
 			      circle1: {
 			        label: 'Service',
-			        color: "#e0f3db"
+			        color: "#a6cee3"
 			      },
 			      circle2: {
 			        label: 'Travel',
-			        color: "#a8ddb5"
+			        color: "#1f78b4"
 			      },
 			      circle3: {
 			        label: 'Work',
-			        color: "#43a2ca"
+			        color: "#b2df8a"
 			      }
 			  };
 
