@@ -62,7 +62,7 @@
 			layer.bindPopup(popupContent);
 		}
 
-		L.geoJson([points], {
+		var marker = L.geoJson([points], {
 
 			style: function (feature) {
 				return feature.properties && feature.properties.style;
@@ -138,7 +138,7 @@
 		marker[i].on('click', function(evt) {
   		//again, evt.target will contain the marker that was clicked
   		console.log('you clicked a marker');
-});
+		});
 		});
 			
 
