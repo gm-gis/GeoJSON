@@ -129,13 +129,17 @@
 
 		legend.addTo(map);
 		
-		myLayer.setGeoJSON(points);
-		myLayer.on('mouseover', function(e) {
-    		e.layer.openPopup();
-		});
-		myLayer.on('mouseout', function(e) {
-    		e.layer.closePopup();
+		marker[i].on('mouseover', function(evt) {
+		 //evt.target is the marker that is being moused over 
+  		//bindPopup() does not need to be called here if it was already called
+  		//somewhere else for this marker.
+  		evt.target.bindPopup('hi').openPopup();
+		});	
+		marker[i].on('click', function(evt) {
+  		//again, evt.target will contain the marker that was clicked
+  		console.log('you clicked a marker');
 });
+		});
 			
 
 	</script>
