@@ -62,7 +62,7 @@
 			layer.bindPopup(popupContent);
 		}
 
-		var marker = L.geoJson([points], {
+		L.geoJson([points], {
 
 			style: function (feature) {
 				return feature.properties && feature.properties.style;
@@ -129,17 +129,8 @@
 
 		legend.addTo(map);
 		
-		marker[i].on('mouseover', function(evt) {
-		 //evt.target is the marker that is being moused over 
-  		//bindPopup() does not need to be called here if it was already called
-  		//somewhere else for this marker.
-  		evt.target.bindPopup('hi').openPopup();
-		});	
-		marker[i].on('click', function(evt) {
-  		//again, evt.target will contain the marker that was clicked
-  		console.log('you clicked a marker');
-		});
-		});
+	
+	
 			
 
 	</script>
