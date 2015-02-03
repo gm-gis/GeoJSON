@@ -125,7 +125,7 @@ var points= {
       "properties": {
         "name": "Pacific Coast Highway",
         "role": "2-Day Road Trip",
-        "time": "July 2015",
+        "time": "July 2014",
         "type": "Travel",
         "img": "<img src='https://scontent-b-lga.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10464136_4368533907084_4178925375455562143_n.jpg?oh=6b97426051608c160512382f63000f49&oe=55680A6D'/>"
       },
