@@ -55,9 +55,9 @@
 		function onEachFeature(feature, layer) {
 			var popupContent = "<p style='text-align:center;'><strong>" +feature.properties.name + "</strong><br>" + feature.properties.role + "<br>" + feature.properties.time + "</p>";
 
-			if (feature.properties && feature.properties.img) {
-				popupContent+=feature.properties.img
-			}
+			//if (feature.properties && feature.properties.img) {
+			//	popupContent+=feature.properties.img
+			//}
 
 			layer.bindPopup(popupContent);
 		}
